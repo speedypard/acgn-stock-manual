@@ -2,7 +2,7 @@
 
 * [關於本書](README.md)
 * [帳號相關說明](user-accounts.md)
-* [新創相關](foundation.md)
+* [新創計創](foundation.md)
 * [交易相關](stock-trading.md)
 * [股價相關](stock-pricing.md)
 * [釋股相關](stock-releasing.md)
