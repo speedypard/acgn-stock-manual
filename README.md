@@ -1,7 +1,3 @@
-我是介紹
+# 關於本書
 
-嗚喔喔喔喔
-
-README!!!
-
-<font color="#A3A3FF"> test </font>
+本書為 [ACGN 股票交易市場](https://acgn-stock.com/) 之使用手冊。
