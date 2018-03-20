@@ -14,7 +14,7 @@
 * [石頭與挖礦機相關](company-mining-machine.md)
 * [納稅相關](taxes.md)
 * [渡假模式相關](vacation.md)
-* [介面說明](application-interface.md)
+* [介面說明](ui.md)
 * [最萌亂鬥大賽說明](arena.md)
 * [賽季說明](round.md)
 * [金管會與股市規則](rules.md)
