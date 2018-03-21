@@ -18,5 +18,4 @@
 * [最萌亂鬥大賽說明](arena.md)
 * [賽季說明](round.md)
 * [金管會與股市規則](rules.md)
-* [精選玩家心得](recommended-article.md)
 
