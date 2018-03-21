@@ -11,7 +11,6 @@
 * [經理人與公司營利相關](company-manager-profit.md)
 * [產品與推薦票相關](company-product.md)
 * [公司VIP相關](company-vip.md)
-* [員工相關](company-employee.md)
 * [石頭與挖礦機相關](company-mining-machine.md)
 * [納稅相關](taxes.md)
 * [渡假模式相關](vacation.md)
