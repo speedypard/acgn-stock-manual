@@ -17,4 +17,5 @@
 * [介面說明](ui.md)
 * [最萌亂鬥大賽說明](arena.md)
 * [賽季說明](round.md)
+* [公式集](formulas.md)
 
