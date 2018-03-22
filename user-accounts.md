@@ -44,7 +44,7 @@
 
 ## 每日薪資 {#system-salary}
 
-所有認證通過的帳號，除非是某個公司的[在職員工](company.md#employees)，否則將在**每天早上八點**，得到系統所配給的薪資 **$1,000**。
+所有認證通過的帳號，除非是某個公司的[在職員工](company.md#employees)，否則在**每天早上八點**，將會得到系統所配給的薪資 **$1,000**。
 
 ## 資訊公開原則 {#public-information-principle}
 
