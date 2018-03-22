@@ -1,7 +1,7 @@
 {
   "plugins" : [ "heading-anchors", "katex" ],
   "pluginsConfig": {
-    "fontSettings": {
+    "fontsettings": {
       "theme": "night"
     }
   }
