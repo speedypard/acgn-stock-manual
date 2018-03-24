@@ -62,3 +62,20 @@ $$
 $$
 P = 6300 \times \text{log}(W + 1) \times W^t
 $$
+
+## 公司 VIP 分數門檻 {#company-vip-score-thresholds}
+
+定義**公司資本額**為 $$C$$，則 **Level 5 分數門檻**寫為
+
+$$
+T_5 = C \times (\frac{1487}{C})^{0.6}
+$$
+
+而 **Level 4 分數門檻** 至 **Level 1 分數門檻**則依序為
+
+$$
+T_4 = 0.8 \times T_5 \\
+T_3 = 0.6 \times T_5 \\
+T_2 = 0.4 \times T_5 \\
+T_1 = 0.2 \times T_5 \\
+$$
