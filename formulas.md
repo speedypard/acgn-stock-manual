@@ -77,7 +77,7 @@ $$
 T_4 = 0.8 \times T_5 \\
 T_3 = 0.6 \times T_5 \\
 T_2 = 0.4 \times T_5 \\
-T_1 = 0.2 \times T_5 \\
+T_1 = 0.2 \times T_5
 $$
 
 ## 亂鬥排名獎勵 {#arena-ranking-awards}
