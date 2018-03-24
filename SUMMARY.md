@@ -11,4 +11,5 @@
 * [稅務相關說明](taxes.md)
 * [渡假模式](vacation-mode.md)
 * [公式集](formulas.md)
+* [最萌亂鬥大賽](arena.md)
 
