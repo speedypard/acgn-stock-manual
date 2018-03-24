@@ -74,10 +74,12 @@ $$
 而 **Level 4 分數門檻** 至 **Level 1 分數門檻**則依序為
 
 $$
-T_4 = 0.8 \times T_5 \\
-T_3 = 0.6 \times T_5 \\
-T_2 = 0.4 \times T_5 \\
-T_1 = 0.2 \times T_5
+\begin{aligned}
+T_4 &= 0.8 \times T_5 \\
+T_3 &= 0.6 \times T_5 \\
+T_2 &= 0.4 \times T_5 \\
+T_1 &= 0.2 \times T_5
+\end{aligned}
 $$
 
 ## 亂鬥排名獎勵 {#arena-ranking-awards}
