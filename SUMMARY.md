@@ -12,4 +12,5 @@
 * [最萌亂鬥大賽](arena.md)
 * [渡假模式](vacation-mode.md)
 * [公式集](formulas.md)
+* [產品](products.md)
 

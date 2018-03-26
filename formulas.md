@@ -95,3 +95,22 @@ $$
 
 則名次為第 $$i$$ 名者可以得到 $$\frac{A}{i}$$ 的**排名獎勵金**。
 
+## 產品補貨釋出 {#product-replenishment}
+
+定義**庫存數量**為 $$S$$。
+
+定義**隨機釋出數**為一隨機變數 $$X \sim \text{Beta}(3, 7)$$，其中 $$\text{Beta}(\alpha, \beta)$$ 為 [Beta 分佈](https://en.wikipedia.org/wiki/Beta_distribution)。
+
+則每次補貨的**釋出數量** $$N$$ 可寫為
+
+$$
+N = \text{min}(1, \lceil 0.1 \times S \times X \rceil)
+$$
+
+## 產品推薦票 {#product-vote-tickets}
+
+若**上市公司總數**為 $$N$$，則每個玩家各別拿到的**推薦票總數** $$V$$ 為
+
+$$
+V = \text{min}(0, \lfloor\text{log}(N \times 18)\rfloor)
+$$
