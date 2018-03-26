@@ -5,7 +5,7 @@
 * [商業季度與賽季](seasons-and-rounds.md)
 * [新創計創](foundation.md)
 * [公司相關說明](company.md)
-* [產品](products.md)
+* [公司產品及推薦票](products.md)
 * [股份釋出](stock-releasing.md)
 * [挖礦機](mining-machine.md)
 * [股票交易](stock-trading.md)
