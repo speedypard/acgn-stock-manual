@@ -90,8 +90,9 @@ $$
 
 定義**存活獎勵變數**為
 $$
-A = 0.177 \times \frac{\sum P}{\text{ln}(N) + 0.57722 + \frac{1}{2 N}}
+A = 0.177 \times \frac{\sum P}{0.57722 + \text{ln}(N) + \frac{1}{2 N}}
 $$
+其中，$$A$$ 的分母為[調合數](https://en.wikipedia.org/wiki/Harmonic_number) $$H_N$$ 的逼近。
 
 則名次為第 $$i$$ 名者可以得到 $$\frac{A}{i}$$ 的**排名獎勵金**。
 
