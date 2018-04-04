@@ -84,9 +84,9 @@ $$
 
 ## 亂鬥命中率 {#arena-hit-rate}
 
-定義**攻方 AGI**與**防方 AGI** 分別為 $$AGI_A$$ 與 $$AGI_D$$。
+定義**攻方 AGI**與**防方 AGI** 分別為 $$AGI_\mathcal{A}$$ 與 $$AGI_\mathcal{D}$$。
 
-定義**攻防 AGI 比例參數**為 $$r = \frac{AGI_A + 50}{AGI_D + 50}$$。
+定義**攻防 AGI 比例參數**為 $$r = \frac{AGI_\mathcal{A} + 50}{AGI_\mathcal{D} + 50}$$。
 
 則攻方的**命中率** $$HR$$ 可寫為
 
