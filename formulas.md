@@ -99,9 +99,9 @@ $$
 
 ## 亂鬥攻擊傷害量 {#arena-damage}
 
-定義**攻方 ATK**與**防方 DEF** 分別為 $$ATK_A$$ 與 $$DEF_D$$。
+定義**攻方 ATK**與**防方 DEF** 分別為 $$ATK_\mathcal{A}$$ 與 $$DEF_\mathcal{D}$$。
 
-定義**基礎傷害量**為 $$DMG_{base} = \sqrt{ATK_A \times \frac{ATK_A + 1}{DEF_D + 1}}$$
+定義**基礎傷害量**為 $$DMG_{base} = \sqrt{ATK_\mathcal{A} \times \frac{ATK_\mathcal{A} + 1}{DEF_\mathcal{D} + 1}}$$
 
 定義**最小傷害量**為 $$DMG_{min} = \lceil DMG \times 0.9 \rceil$$。
 
