@@ -86,13 +86,13 @@ $$
 
 定義**參賽總人數**為 $$N$$。
 
-定義**所有參賽者投入金額總額**為 $$\sum P$$。
+定義**第 $$i$$ 名的投入金額總額**為 $$P_i$$、**所有參賽者投入金額總額**為 $$\sum P$$。
 
 定義**存活獎勵變數**為
 $$
-A = 0.177 \times \frac{\sum P}{0.57722 + \text{ln}(N) + \frac{1}{2 N}}
+A = 0.177 \times \frac{\sum P}{0.57722 + \text{ln}(N) + \frac{1}{2 N}} + P_1
 $$
-其中，$$A$$ 的分母為[調合數](https://en.wikipedia.org/wiki/Harmonic_number) $$H_N$$ 的逼近。
+其中，$$A$$ 的前項分母為[調合數](https://en.wikipedia.org/wiki/Harmonic_number) $$H_N$$ 的逼近。
 
 則名次為第 $$i$$ 名者可以得到 $$\frac{A}{i}$$ 的**排名獎勵金**。
 
