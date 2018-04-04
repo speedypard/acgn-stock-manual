@@ -82,6 +82,39 @@ T_1 &= 0.2 \times T_5
 \end{aligned}
 $$
 
+## 亂鬥命中率 {#arena-hit-rate}
+
+定義**攻方 AGI**與**防方 AGI** 分別為 $$AGI_A$$ 與 $$AGI_D$$。
+
+定義**攻防 AGI 比例參數**為 $$r = \frac{AGI_A + 50}{AGI_D + 50}$$。
+
+則攻方的**命中率** $$HR$$ 可寫為
+
+$$
+HR = \begin{cases}
+  0.05 + 0.7\ \text{tan}(\frac{\pi r}{4})\ r^2, & 0 \le r \le 1 \\
+  0.95 - \frac{1}{20 (r - 0.5)^2}, & r \ge 1 \\
+\end{cases}
+$$
+
+## 亂鬥攻擊傷害量 {#arena-damage}
+
+定義**攻方 ATK**與**防方 DEF** 分別為 $$ATK_A$$ 與 $$DEF_D$$。
+
+定義**基礎傷害量**為 $$DMG_{base} = \sqrt{ATK_A \times \frac{ATK_A + 1}{DEF_D + 1}}$$
+
+定義**最小傷害量**為 $$DMG_{min} = \lceil DMG \times 0.9 \rceil$$。
+
+定義**最大傷害量**為 $$DMG_{max} = \lfloor DMG \times 1.1 \rfloor$$。
+
+則攻方對防方造成的**傷害量** $$DMG$$ 可寫為
+
+$$
+DMG = \max(1, \text{random}(DMG_{min}, DMG_{max}))
+$$
+
+其中，$$\text{random}(a, b)$$ 為一均勻分佈於 $$[a, b]$$ 區間的**隨機整數**。
+
 ## 亂鬥排名獎勵 {#arena-ranking-awards}
 
 定義**參賽總人數**為 $$N$$。
