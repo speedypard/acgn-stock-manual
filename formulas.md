@@ -27,16 +27,16 @@
 
 定義**基礎營利**為 $$P_{base} = 3000 \times (0.9 + t)$$。
 
-定義**爆肝機率**為 $$r = \text{min}(n, 30)\%$$，每位員工有 $$r$$ 的機率進行爆肝工作。
+定義**爆肝機率**為 $$r = \text{min}(N, 30)\%$$，每位員工有 $$r$$ 的機率進行爆肝工作。
 
-定義**爆肝員工人數**為一隨機變數 $$N_{boost} \sim B(n, r)$$，其中 $$B(n, p)$$ 為[二項式分佈](https://en.wikipedia.org/wiki/Binomial_distribution)。
+定義**爆肝員工人數**為一隨機變數 $$N_{boost} \sim B(N, r)$$，其中 $$B(n, p)$$ 為[二項式分佈](https://en.wikipedia.org/wiki/Binomial_distribution)。
 
 定義**爆肝加成營利**為 $$P_{boost} = P_{base} \times t$$。
 
 綜合以上，公司每日的**員工營利** $$P$$ 可寫為
 
 $$
-P = P_{base} + P_{boost} \times N_{boost}
+P = P_{base} \times N + P_{boost} \times N_{boost}
 $$
 
 即**基礎營利**加上**爆肝加成營利**乘以**爆肝員工人數**。
