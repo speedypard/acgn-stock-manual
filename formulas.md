@@ -60,7 +60,7 @@ $$
 綜合以上，公司當季的**挖礦機營利** $$P$$ 可寫為
 
 $$
-P = 6300 \times \text{log}(W + 1) \times W^t
+P = 6300 \times \text{log}(W + 1) \times (W + 1)^t
 $$
 
 ## 公司 VIP 分數門檻 {#company-vip-score-thresholds}
