@@ -146,5 +146,5 @@ $$
 若**上市公司總數**為 $$N$$，則每個玩家各別拿到的**推薦票總數** $$V$$ 為
 
 $$
-V = \text{min}(0, \lfloor\text{log}(N \times 18)\rfloor)
+V = \text{min}(0, \lfloor\text{log}(N) \times 18 \rfloor)
 $$
